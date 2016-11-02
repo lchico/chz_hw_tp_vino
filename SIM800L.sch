@@ -1,79 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:analog-cache
-LIBS:ciaa-nxp-cache
-LIBS:ciaa-nxp-rescue
-LIBS:74LVC1G04GW
-LIBS:93CXX
-LIBS:BLM15HG6015N1D
-LIBS:FT2232H
-LIBS:IS42S16400F
-LIBS:LPC4337JBD144
-LIBS:MIC2025
-LIBS:PBSS5240
-LIBS:PRTR5V0U2X
-LIBS:PS2805
-LIBS:SCHA5B0200
-LIBS:Si50x
-LIBS:TJA1040
-LIBS:TXB0108
-LIBS:Transil_diode
-LIBS:amesser-ad
-LIBS:amesser-cmos4000
-LIBS:amesser-conn
-LIBS:amesser-discrete
-LIBS:amesser-linear
-LIBS:amesser-power
-LIBS:amesser-usb
-LIBS:audio-vlsi
-LIBS:bat54_c
-LIBS:capteurs
-LIBS:fqt13n06l
-LIBS:g5v2
-LIBS:lm2596
-LIBS:mcp1415
-LIBS:mcp1416
-LIBS:mcu-nxp
-LIBS:mcu-st
-LIBS:my_lab
-LIBS:net-phy
-LIBS:nsi50010yt1g
-LIBS:pbss5240xf
-LIBS:regulators
-LIBS:rs485_rs232_can
-LIBS:s25fl032p0xmfi013
-LIBS:sensors
-LIBS:sw_push
-LIBS:tvs
-LIBS:w_device
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:tp_vino-cache
 EELAYER 25 0
 EELAYER END
@@ -114,10 +39,10 @@ F 3 "" H 3850 4200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR23
+L GND #PWR029
 U 1 1 581A0E24
 P 4150 4500
-F 0 "#PWR23" H 4150 4250 50  0001 C CNN
+F 0 "#PWR029" H 4150 4250 50  0001 C CNN
 F 1 "GND" H 4150 4350 50  0000 C CNN
 F 2 "" H 4150 4500 50  0000 C CNN
 F 3 "" H 4150 4500 50  0000 C CNN
@@ -162,10 +87,10 @@ F 3 "" H 5300 3150 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR24
+L GND #PWR030
 U 1 1 581A0E28
 P 5400 3550
-F 0 "#PWR24" H 5400 3300 50  0001 C CNN
+F 0 "#PWR030" H 5400 3300 50  0001 C CNN
 F 1 "GND" H 5400 3400 50  0000 C CNN
 F 2 "" H 5400 3550 50  0000 C CNN
 F 3 "" H 5400 3550 50  0000 C CNN
@@ -201,10 +126,10 @@ NoConn ~ 3150 4150
 NoConn ~ 3150 4050
 NoConn ~ 3150 3950
 $Comp
-L +5V #PWR26
+L +5V #PWR031
 U 1 1 581A0E2B
 P 6000 2250
-F 0 "#PWR26" H 6000 2100 50  0001 C CNN
+F 0 "#PWR031" H 6000 2100 50  0001 C CNN
 F 1 "+5V" H 6000 2390 50  0000 C CNN
 F 2 "" H 6000 2250 50  0000 C CNN
 F 3 "" H 6000 2250 50  0000 C CNN
@@ -223,10 +148,10 @@ F 3 "" H 5800 4300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR25
+L GND #PWR032
 U 1 1 581A0E2D
 P 5800 4550
-F 0 "#PWR25" H 5800 4300 50  0001 C CNN
+F 0 "#PWR032" H 5800 4300 50  0001 C CNN
 F 1 "GND" H 5800 4400 50  0000 C CNN
 F 2 "" H 5800 4550 50  0000 C CNN
 F 3 "" H 5800 4550 50  0000 C CNN
@@ -245,10 +170,10 @@ F 3 "" H 6300 4050 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR27
+L +5V #PWR033
 U 1 1 581A0E2F
 P 6600 3750
-F 0 "#PWR27" H 6600 3600 50  0001 C CNN
+F 0 "#PWR033" H 6600 3600 50  0001 C CNN
 F 1 "+5V" H 6600 3890 50  0000 C CNN
 F 2 "" H 6600 3750 50  0000 C CNN
 F 3 "" H 6600 3750 50  0000 C CNN

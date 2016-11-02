@@ -1,79 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:analog-cache
-LIBS:ciaa-nxp-cache
-LIBS:ciaa-nxp-rescue
-LIBS:74LVC1G04GW
-LIBS:93CXX
-LIBS:BLM15HG6015N1D
-LIBS:FT2232H
-LIBS:IS42S16400F
-LIBS:LPC4337JBD144
-LIBS:MIC2025
-LIBS:PBSS5240
-LIBS:PRTR5V0U2X
-LIBS:PS2805
-LIBS:SCHA5B0200
-LIBS:Si50x
-LIBS:TJA1040
-LIBS:TXB0108
-LIBS:Transil_diode
-LIBS:amesser-ad
-LIBS:amesser-cmos4000
-LIBS:amesser-conn
-LIBS:amesser-discrete
-LIBS:amesser-linear
-LIBS:amesser-power
-LIBS:amesser-usb
-LIBS:audio-vlsi
-LIBS:bat54_c
-LIBS:capteurs
-LIBS:fqt13n06l
-LIBS:g5v2
-LIBS:lm2596
-LIBS:mcp1415
-LIBS:mcp1416
-LIBS:mcu-nxp
-LIBS:mcu-st
-LIBS:my_lab
-LIBS:net-phy
-LIBS:nsi50010yt1g
-LIBS:pbss5240xf
-LIBS:regulators
-LIBS:rs485_rs232_can
-LIBS:s25fl032p0xmfi013
-LIBS:sensors
-LIBS:sw_push
-LIBS:tvs
-LIBS:w_device
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:tp_vino-cache
 EELAYER 25 0
 EELAYER END
@@ -134,10 +59,10 @@ F 3 "~" H 5800 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-ciaa-nxp #PWR4
+L GND-RESCUE-ciaa-nxp #PWR01
 U 1 1 581A0FB6
 P 5950 3350
-F 0 "#PWR4" H 5950 3350 30  0001 C CNN
+F 0 "#PWR01" H 5950 3350 30  0001 C CNN
 F 1 "GND" H 5950 3280 30  0001 C CNN
 F 2 "" H 5950 3350 60  0000 C CNN
 F 3 "" H 5950 3350 60  0000 C CNN
@@ -145,10 +70,10 @@ F 3 "" H 5950 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-ciaa-nxp #PWR5
+L GND-RESCUE-ciaa-nxp #PWR02
 U 1 1 581A0FB7
 P 5950 3850
-F 0 "#PWR5" H 5950 3850 30  0001 C CNN
+F 0 "#PWR02" H 5950 3850 30  0001 C CNN
 F 1 "GND" H 5950 3780 30  0001 C CNN
 F 2 "" H 5950 3850 60  0000 C CNN
 F 3 "" H 5950 3850 60  0000 C CNN
@@ -184,10 +109,10 @@ F 3 "" H 4800 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-ciaa-nxp #PWR2
+L GND-RESCUE-ciaa-nxp #PWR03
 U 1 1 581A0FBA
 P 5650 3500
-F 0 "#PWR2" H 5650 3500 30  0001 C CNN
+F 0 "#PWR03" H 5650 3500 30  0001 C CNN
 F 1 "GND" H 5650 3430 30  0001 C CNN
 F 2 "" H 5650 3500 60  0000 C CNN
 F 3 "" H 5650 3500 60  0000 C CNN
@@ -195,10 +120,10 @@ F 3 "" H 5650 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-ciaa-nxp #PWR3
+L GND-RESCUE-ciaa-nxp #PWR04
 U 1 1 581A0FBB
 P 5950 2950
-F 0 "#PWR3" H 5950 2950 30  0001 C CNN
+F 0 "#PWR04" H 5950 2950 30  0001 C CNN
 F 1 "GND" H 5950 2880 30  0001 C CNN
 F 2 "" H 5950 2950 60  0000 C CNN
 F 3 "" H 5950 2950 60  0000 C CNN
@@ -206,10 +131,10 @@ F 3 "" H 5950 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V-RESCUE-ciaa-nxp #PWR1
+L +3.3V-RESCUE-ciaa-nxp #PWR05
 U 1 1 581A0FBC
 P 5650 2800
-F 0 "#PWR1" H 5650 2760 30  0001 C CNN
+F 0 "#PWR05" H 5650 2760 30  0001 C CNN
 F 1 "+3.3V" H 5650 2910 30  0000 C CNN
 F 2 "" H 5650 2800 60  0000 C CNN
 F 3 "" H 5650 2800 60  0000 C CNN
