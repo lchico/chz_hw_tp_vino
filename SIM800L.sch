@@ -1,0 +1,304 @@
+EESchema Schematic File Version 2
+LIBS:analog-cache
+LIBS:ciaa-nxp-cache
+LIBS:ciaa-nxp-rescue
+LIBS:74LVC1G04GW
+LIBS:93CXX
+LIBS:BLM15HG6015N1D
+LIBS:FT2232H
+LIBS:IS42S16400F
+LIBS:LPC4337JBD144
+LIBS:MIC2025
+LIBS:PBSS5240
+LIBS:PRTR5V0U2X
+LIBS:PS2805
+LIBS:SCHA5B0200
+LIBS:Si50x
+LIBS:TJA1040
+LIBS:TXB0108
+LIBS:Transil_diode
+LIBS:amesser-ad
+LIBS:amesser-cmos4000
+LIBS:amesser-conn
+LIBS:amesser-discrete
+LIBS:amesser-linear
+LIBS:amesser-power
+LIBS:amesser-usb
+LIBS:audio-vlsi
+LIBS:bat54_c
+LIBS:capteurs
+LIBS:fqt13n06l
+LIBS:g5v2
+LIBS:lm2596
+LIBS:mcp1415
+LIBS:mcp1416
+LIBS:mcu-nxp
+LIBS:mcu-st
+LIBS:my_lab
+LIBS:net-phy
+LIBS:nsi50010yt1g
+LIBS:pbss5240xf
+LIBS:regulators
+LIBS:rs485_rs232_can
+LIBS:s25fl032p0xmfi013
+LIBS:sensors
+LIBS:sw_push
+LIBS:tvs
+LIBS:w_device
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:tp_vino-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title "CIAA Fuente de alimentación"
+Date "11 may 2015"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 4050 1250 0    60   ~ 0
+Fuente de alimentación con rango aproximado de entrada de 12 a 30V (CC).\nTensiones de salida: 5V, 3A y 3.3V, 1A.\nPosibilidad de alimentar la CIAA a través del puerto USB mediante la conexión con D1.
+$Comp
+L CONN_01X06 P3
+U 1 1 581A0E22
+P 3350 4200
+F 0 "P3" H 3350 4550 50  0000 C CNN
+F 1 "CONN_01X06" V 3450 4200 50  0000 C CNN
+F 2 "" H 3350 4200 50  0000 C CNN
+F 3 "" H 3350 4200 50  0000 C CNN
+	1    3350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P4
+U 1 1 581A0E23
+P 3850 4200
+F 0 "P4" H 3850 4550 50  0000 C CNN
+F 1 "CONN_01X06" V 3950 4200 50  0000 C CNN
+F 2 "" H 3850 4200 50  0000 C CNN
+F 3 "" H 3850 4200 50  0000 C CNN
+	1    3850 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR23
+U 1 1 581A0E24
+P 4150 4500
+F 0 "#PWR23" H 4150 4250 50  0001 C CNN
+F 1 "GND" H 4150 4350 50  0000 C CNN
+F 2 "" H 4150 4500 50  0000 C CNN
+F 3 "" H 4150 4500 50  0000 C CNN
+	1    4150 4500
+	1    0    0    -1  
+$EndComp
+Text HLabel 4700 4250 2    60   Input ~ 0
+Rx_sim800
+Text HLabel 4700 4350 2    60   Output ~ 0
+Tx_sim800
+$Comp
+L R R2
+U 1 1 581A0E25
+P 4450 3500
+F 0 "R2" V 4530 3500 50  0000 C CNN
+F 1 "R" V 4450 3500 50  0000 C CNN
+F 2 "" V 4380 3500 50  0000 C CNN
+F 3 "" H 4450 3500 50  0000 C CNN
+	1    4450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 581A0E26
+P 5100 3500
+F 0 "R3" V 5180 3500 50  0000 C CNN
+F 1 "R" V 5100 3500 50  0000 C CNN
+F 2 "" V 5030 3500 50  0000 C CNN
+F 3 "" H 5100 3500 50  0000 C CNN
+	1    5100 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L BC849 Q1
+U 1 1 581A0E27
+P 5300 3150
+F 0 "Q1" H 5500 3225 50  0000 L CNN
+F 1 "BC849" H 5500 3150 50  0000 L CNN
+F 2 "SOT-23" H 5500 3075 50  0000 L CIN
+F 3 "" H 5300 3150 50  0000 L CNN
+	1    5300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR24
+U 1 1 581A0E28
+P 5400 3550
+F 0 "#PWR24" H 5400 3300 50  0001 C CNN
+F 1 "GND" H 5400 3400 50  0000 C CNN
+F 2 "" H 5400 3550 50  0000 C CNN
+F 3 "" H 5400 3550 50  0000 C CNN
+	1    5400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 581A0E29
+P 5400 2550
+F 0 "R4" V 5480 2550 50  0000 C CNN
+F 1 "R" V 5400 2550 50  0000 C CNN
+F 2 "" V 5330 2550 50  0000 C CNN
+F 3 "" H 5400 2550 50  0000 C CNN
+	1    5400 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D5
+U 1 1 581A0E2A
+P 5700 2300
+F 0 "D5" H 5700 2400 50  0000 C CNN
+F 1 "LED" H 5700 2200 50  0000 C CNN
+F 2 "" H 5700 2300 50  0000 C CNN
+F 3 "" H 5700 2300 50  0000 C CNN
+	1    5700 2300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3150 4450
+NoConn ~ 3150 4350
+NoConn ~ 3150 4250
+NoConn ~ 3150 4150
+NoConn ~ 3150 4050
+NoConn ~ 3150 3950
+$Comp
+L +5V #PWR26
+U 1 1 581A0E2B
+P 6000 2250
+F 0 "#PWR26" H 6000 2100 50  0001 C CNN
+F 1 "+5V" H 6000 2390 50  0000 C CNN
+F 2 "" H 6000 2250 50  0000 C CNN
+F 3 "" H 6000 2250 50  0000 C CNN
+	1    6000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D6
+U 1 1 581A0E2C
+P 5800 4300
+F 0 "D6" H 5800 4400 50  0000 C CNN
+F 1 "ZENER_4,3V_1N4731" V 6000 4700 50  0000 C CNN
+F 2 "" H 5800 4300 50  0000 C CNN
+F 3 "" H 5800 4300 50  0000 C CNN
+	1    5800 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR25
+U 1 1 581A0E2D
+P 5800 4550
+F 0 "#PWR25" H 5800 4300 50  0001 C CNN
+F 1 "GND" H 5800 4400 50  0000 C CNN
+F 2 "" H 5800 4550 50  0000 C CNN
+F 3 "" H 5800 4550 50  0000 C CNN
+	1    5800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D7
+U 1 1 581A0E2E
+P 6300 4050
+F 0 "D7" H 6300 4150 40  0000 C CNN
+F 1 "DIODE_1N4007" H 6300 3950 40  0000 C CNN
+F 2 "" H 6300 4050 60  0000 C CNN
+F 3 "" H 6300 4050 60  0000 C CNN
+	1    6300 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR27
+U 1 1 581A0E2F
+P 6600 3750
+F 0 "#PWR27" H 6600 3600 50  0001 C CNN
+F 1 "+5V" H 6600 3890 50  0000 C CNN
+F 2 "" H 6600 3750 50  0000 C CNN
+F 3 "" H 6600 3750 50  0000 C CNN
+	1    6600 3750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4050 4150
+Wire Wire Line
+	4050 4450 4150 4450
+Wire Wire Line
+	4150 4450 4150 4500
+Wire Wire Line
+	4050 4350 4700 4350
+Wire Wire Line
+	4050 4250 4700 4250
+Wire Wire Line
+	4050 4050 6100 4050
+Wire Wire Line
+	5400 3350 5400 3550
+Connection ~ 5400 3500
+Wire Wire Line
+	4450 3150 5100 3150
+Wire Wire Line
+	5400 2800 5400 2950
+Wire Wire Line
+	5900 2300 6000 2300
+Wire Wire Line
+	6000 2300 6000 2250
+Wire Wire Line
+	5800 4050 5800 4100
+Wire Wire Line
+	5800 4500 5800 4550
+Wire Wire Line
+	6600 3750 6600 4050
+Wire Wire Line
+	6600 4050 6500 4050
+Connection ~ 5800 4050
+Wire Wire Line
+	4050 3950 4450 3950
+Wire Wire Line
+	4450 3950 4450 3750
+Wire Wire Line
+	4450 3250 4450 3150
+Wire Wire Line
+	4850 3500 4750 3500
+Wire Wire Line
+	4750 3500 4750 3150
+Connection ~ 4750 3150
+Wire Wire Line
+	5350 3500 5400 3500
+Wire Wire Line
+	5500 2300 5400 2300
+$EndSCHEMATC
