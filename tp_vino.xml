@@ -1,0 +1,1886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/lchico/Especialidad/Proyecto/Hardware/tp_vino/tp_vino.sch</source>
+    <date>Wed Nov  2 22:33:00 2016</date>
+    <tool>Eeschema 4.0.2+dfsg1-2~bpo8+1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TP_PLACA_BASE_F_VINO</title>
+        <company>CHICO ZOSSI</company>
+        <rev>1.0</rev>
+        <date>2016-11-02</date>
+        <source>tp_vino.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/RS232_TTL/" tstamps="/581A0DA2/">
+      <title_block>
+        <title>CIAA RS485 - RS232 - CAN</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>11 may 2015</date>
+        <source>RS232_TTL.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Fuente/" tstamps="/581A0DA3/">
+      <title_block>
+        <title>CIAA Fuente de alimentación</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>11 may 2015</date>
+        <source>Fuente.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/SIM800L/" tstamps="/581A0DA4/">
+      <title_block>
+        <title>CIAA Fuente de alimentación</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>11 may 2015</date>
+        <source>SIM800L.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/LM35_LM317_POTE/" tstamps="/581A0DA5/">
+      <title_block>
+        <title>EDU CIAA EXPANSIÓN</title>
+        <company/>
+        <rev>1.2</rev>
+        <date>5 oct 2015</date>
+        <source>LM35_LM317_POTE.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Buttons_Leds/" tstamps="/581A0DA6/">
+      <title_block>
+        <title>EDU CIAA EXPANSIÓN</title>
+        <company/>
+        <rev>1.2</rev>
+        <date>5 oct 2015</date>
+        <source>Buttons_Leds.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="tp_vino-cache" part="C_MINI"/>
+      <sheetpath names="/RS232_TTL/" tstamps="/581A0DA2/"/>
+      <tstamp>581A0FB2</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="tp_vino-cache" part="C_MINI"/>
+      <sheetpath names="/RS232_TTL/" tstamps="/581A0DA2/"/>
+      <tstamp>581A0FB3</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="tp_vino-cache" part="C_MINI"/>
+      <sheetpath names="/RS232_TTL/" tstamps="/581A0DA2/"/>
+      <tstamp>581A0FB4</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="tp_vino-cache" part="C_MINI"/>
+      <sheetpath names="/RS232_TTL/" tstamps="/581A0DA2/"/>
+      <tstamp>581A0FB5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="tp_vino-cache" part="C_MINI"/>
+      <sheetpath names="/RS232_TTL/" tstamps="/581A0DA2/"/>
+      <tstamp>581A0FB8</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ST3232E</value>
+      <libsource lib="tp_vino-cache" part="ST3232E"/>
+      <sheetpath names="/RS232_TTL/" tstamps="/581A0DA2/"/>
+      <tstamp>581A0FB9</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>TB_1X2</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="tp_vino-cache" part="TB_1X2"/>
+      <sheetpath names="/RS232_TTL/" tstamps="/581A0DA2/"/>
+      <tstamp>581A0FBD</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_02X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x02</footprint>
+      <libsource lib="tp_vino-cache" part="CONN_02X02"/>
+      <sheetpath names="/RS232_TTL/" tstamps="/581A0DA2/"/>
+      <tstamp>581A0FBE</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>TB_1X2</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="tp_vino-cache" part="TB_1X2"/>
+      <sheetpath names="/RS232_TTL/" tstamps="/581A0DA2/"/>
+      <tstamp>581A0FBF</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>TB_1X2</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="tp_vino-cache" part="TB_1X2"/>
+      <sheetpath names="/RS232_TTL/" tstamps="/581A0DA2/"/>
+      <tstamp>581A0FC0</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>TB_1X2</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="tp_vino-cache" part="TB_1X2"/>
+      <sheetpath names="/RS232_TTL/" tstamps="/581A0DA2/"/>
+      <tstamp>581A0FC1</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>NCP1117ST33T3G</value>
+      <libsource lib="tp_vino-cache" part="NCP1117ST33T3G-RESCUE-ciaa-nxp"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A2894</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>470uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D13_L21_P5</footprint>
+      <libsource lib="tp_vino-cache" part="CAPAPOL"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A2896</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>100uH</value>
+      <libsource lib="tp_vino-cache" part="INDUCTOR"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A289A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>MURS360T3G</value>
+      <libsource lib="tp_vino-cache" part="DIODE"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A289B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N5822</value>
+      <libsource lib="tp_vino-cache" part="DIODESCH"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A289C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1000uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L20_P5</footprint>
+      <libsource lib="tp_vino-cache" part="CAPAPOL"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A289E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L25_P5</footprint>
+      <libsource lib="tp_vino-cache" part="CAPAPOL"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A28A1</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>PMEG3020EH</value>
+      <libsource lib="tp_vino-cache" part="DIODESCH"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A28A3</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED red</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="tp_vino-cache" part="LED-RESCUE-ciaa-nxp"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A28A7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="tp_vino-cache" part="R-RESCUE-ciaa-nxp"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A28A8</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>MMZ1608B601C</value>
+      <libsource lib="tp_vino-cache" part="FILTER"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A28AB</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>MMZ1608B601C</value>
+      <libsource lib="tp_vino-cache" part="FILTER"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A28B0</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>TB_1X2</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="tp_vino-cache" part="TB_1X2"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A28B9</tstamp>
+    </comp>
+    <comp ref="ZA2">
+      <value>SMAZ5V6</value>
+      <libsource lib="tp_vino-cache" part="ZENER-RESCUE-ciaa-nxp"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A28BA</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>USB_OTG</value>
+      <libsource lib="tp_vino-cache" part="USB_OTG-RESCUE-ciaa-nxp"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A28BB</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM2576HVS-5</value>
+      <footprint>TO-263-5</footprint>
+      <libsource lib="dc-dc" part="LM2576HVS-5"/>
+      <sheetpath names="/Fuente/" tstamps="/581A0DA3/"/>
+      <tstamp>581A6884</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X06</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x06</footprint>
+      <libsource lib="tp_vino-cache" part="CONN_01X06"/>
+      <sheetpath names="/SIM800L/" tstamps="/581A0DA4/"/>
+      <tstamp>581A0E22</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X06</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x06</footprint>
+      <libsource lib="tp_vino-cache" part="CONN_01X06"/>
+      <sheetpath names="/SIM800L/" tstamps="/581A0DA4/"/>
+      <tstamp>581A0E23</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/SIM800L/" tstamps="/581A0DA4/"/>
+      <tstamp>581A0E25</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/SIM800L/" tstamps="/581A0DA4/"/>
+      <tstamp>581A0E26</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC849</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="tp_vino-cache" part="BC849"/>
+      <sheetpath names="/SIM800L/" tstamps="/581A0DA4/"/>
+      <tstamp>581A0E27</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/SIM800L/" tstamps="/581A0DA4/"/>
+      <tstamp>581A0E29</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="tp_vino-cache" part="LED"/>
+      <sheetpath names="/SIM800L/" tstamps="/581A0DA4/"/>
+      <tstamp>581A0E2A</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>ZENER_4,3V_1N4731</value>
+      <libsource lib="tp_vino-cache" part="ZENER"/>
+      <sheetpath names="/SIM800L/" tstamps="/581A0DA4/"/>
+      <tstamp>581A0E2C</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>DIODE_1N4007</value>
+      <libsource lib="tp_vino-cache" part="DIODE"/>
+      <sheetpath names="/SIM800L/" tstamps="/581A0DA4/"/>
+      <tstamp>581A0E2E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A256D</tstamp>
+    </comp>
+    <comp ref="v_current1">
+      <value>POT</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer-Piher_PT15-V15_horizontal</footprint>
+      <libsource lib="tp_vino-cache" part="POT"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A256E</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02</footprint>
+      <libsource lib="tp_vino-cache" part="CONN_01X02"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2570</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_02X02</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_2x02</footprint>
+      <libsource lib="tp_vino-cache" part="CONN_02X02"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2571</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LM317_SOT223</value>
+      <libsource lib="tp_vino-cache" part="LM317_SOT223"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2574</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2575</tstamp>
+    </comp>
+    <comp ref="v_tension1">
+      <value>POT</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer-Piher_PT15-V15_horizontal</footprint>
+      <libsource lib="tp_vino-cache" part="POT"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2576</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02</footprint>
+      <libsource lib="tp_vino-cache" part="CONN_01X02"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2578</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LM317_SOT223</value>
+      <libsource lib="tp_vino-cache" part="LM317_SOT223"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A257A</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>TB_1X2</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="tp_vino-cache" part="TB_1X2"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A257C</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>TB_1X2</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="tp_vino-cache" part="TB_1X2"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A257E</tstamp>
+    </comp>
+    <comp ref="v_out_1">
+      <value>POT</value>
+      <footprint>Potentiometers:Potentiometer_Alps-RK16-single_largePads</footprint>
+      <libsource lib="tp_vino-cache" part="POT"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2580</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>TB_1X2</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="tp_vino-cache" part="TB_1X2"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2581</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02</footprint>
+      <libsource lib="tp_vino-cache" part="CONN_01X02"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2582</tstamp>
+    </comp>
+    <comp ref="v_out_2">
+      <value>POT</value>
+      <footprint>Potentiometers:Potentiometer_Alps-RK16-single_largePads</footprint>
+      <libsource lib="tp_vino-cache" part="POT"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2583</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>TB_1X2</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="tp_vino-cache" part="TB_1X2"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2584</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02</footprint>
+      <libsource lib="tp_vino-cache" part="CONN_01X02"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2585</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LM35-LP</value>
+      <datasheet>datasheet/lm35.pdf</datasheet>
+      <libsource lib="tp_vino-cache" part="LM35-LP"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2586</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>POT</value>
+      <libsource lib="tp_vino-cache" part="POT"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A2588</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02</footprint>
+      <libsource lib="tp_vino-cache" part="CONN_01X02"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A258A</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>TB_1X2</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="tp_vino-cache" part="TB_1X2"/>
+      <sheetpath names="/LM35_LM317_POTE/" tstamps="/581A0DA5/"/>
+      <tstamp>581A258B</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2N7002</value>
+      <footprint>SOT23GDS</footprint>
+      <datasheet>2N7000.pdf</datasheet>
+      <fields>
+        <field name="Descripción">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="Fabricante">Fairchild Semiconductor</field>
+        <field name="Nro de parte">2N7002</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">2N7002NCT-ND</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="MOSFET_N"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B00</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>AOA0000CE1.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Panasonic Electronic Components</field>
+        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">P10KACT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B01</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>680</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>RR Series Resistor Specifications.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 680 OHM 1/10W .5% 0805 SMD</field>
+        <field name="Fabricante">Susumu</field>
+        <field name="Nro de parte">RR1220P-681-D</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">RR12P680DCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B03</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>330k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 330K OHM 1/8W 5% 0805</field>
+        <field name="Fabricante">Stackpole Electronics Inc</field>
+        <field name="Nro de parte">RMCF0805JT330K</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">RMCF0805JT330KCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B05</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>LED-0805</footprint>
+      <datasheet>qtlp630c-2.pdf</datasheet>
+      <fields>
+        <field name="Descripción">LED YELLOW WTR CLR 0805 SMD T/R</field>
+        <field name="Fabricante">Everlight Electronics Co Ltd</field>
+        <field name="Nro de parte">QTLP630C7TR</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">1080-1410-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="LED"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B07</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>TEC_1</value>
+      <footprint>PUSH_SWITCH_THT</footprint>
+      <datasheet>ENG_CD_1825910_C7_baseFilename.pdf</datasheet>
+      <fields>
+        <field name="Descripción">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Fabricante">TE Connectivity</field>
+        <field name="Nro de parte">1825910-7</field>
+        <field name="Path datasheet">../PCN/EDU-NXP/Datasheets</field>
+        <field name="Digikey">450-1804-ND</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="SW_PUSH"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B08</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>RC0805 Pb Free.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 1K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-071KL</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">311-1.0KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B09</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>AOA0000CE1.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Panasonic Electronic Components</field>
+        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">P10KACT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B0B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>c_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 0.1UF 16V 10% X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de Parte">C0805C104K4RACTU</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">399-1167-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="C"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B0C</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002</value>
+      <footprint>SOT23GDS</footprint>
+      <datasheet>2N7000.pdf</datasheet>
+      <fields>
+        <field name="Descripción">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="Fabricante">Fairchild Semiconductor</field>
+        <field name="Nro de parte">2N7002</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">2N7002NCT-ND</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="MOSFET_N"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B0F</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>AOA0000CE1.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Panasonic Electronic Components</field>
+        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">P10KACT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B10</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>680</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>RR Series Resistor Specifications.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 680 OHM 1/10W .5% 0805 SMD</field>
+        <field name="Fabricante">Susumu</field>
+        <field name="Nro de parte">RR1220P-681-D</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">RR12P680DCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B12</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>330k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 330K OHM 1/8W 5% 0805</field>
+        <field name="Fabricante">Stackpole Electronics Inc</field>
+        <field name="Nro de parte">RMCF0805JT330K</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">RMCF0805JT330KCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B14</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LED-0805</footprint>
+      <datasheet>qtlp630c-2.pdf</datasheet>
+      <fields>
+        <field name="Descripción">LED YELLOW WTR CLR 0805 SMD T/R</field>
+        <field name="Fabricante">Everlight Electronics Co Ltd</field>
+        <field name="Nro de parte">QTLP630C7TR</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">1080-1410-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="LED"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B16</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2N7002</value>
+      <footprint>SOT23GDS</footprint>
+      <datasheet>2N7000.pdf</datasheet>
+      <fields>
+        <field name="Descripción">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="Fabricante">Fairchild Semiconductor</field>
+        <field name="Nro de parte">2N7002</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">2N7002NCT-ND</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="MOSFET_N"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B17</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>AOA0000CE1.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Panasonic Electronic Components</field>
+        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">P10KACT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B18</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>680</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>RR Series Resistor Specifications.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 680 OHM 1/10W .5% 0805 SMD</field>
+        <field name="Fabricante">Susumu</field>
+        <field name="Nro de parte">RR1220P-681-D</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">RR12P680DCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B1A</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>330k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 330K OHM 1/8W 5% 0805</field>
+        <field name="Fabricante">Stackpole Electronics Inc</field>
+        <field name="Nro de parte">RMCF0805JT330K</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">RMCF0805JT330KCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B1C</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>LED-0805</footprint>
+      <datasheet>qtlp630c-2.pdf</datasheet>
+      <fields>
+        <field name="Descripción">LED YELLOW WTR CLR 0805 SMD T/R</field>
+        <field name="Fabricante">Everlight Electronics Co Ltd</field>
+        <field name="Nro de parte">QTLP630C7TR</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">1080-1410-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="LED"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B1E</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N7002</value>
+      <footprint>SOT23GDS</footprint>
+      <datasheet>2N7000.pdf</datasheet>
+      <fields>
+        <field name="Descripción">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="Fabricante">Fairchild Semiconductor</field>
+        <field name="Nro de parte">2N7002</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">2N7002NCT-ND</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="MOSFET_N"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B1F</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>AOA0000CE1.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Panasonic Electronic Components</field>
+        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">P10KACT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B20</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>680</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>RR Series Resistor Specifications.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 680 OHM 1/10W .5% 0805 SMD</field>
+        <field name="Fabricante">Susumu</field>
+        <field name="Nro de parte">RR1220P-681-D</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">RR12P680DCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B22</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>330k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 330K OHM 1/8W 5% 0805</field>
+        <field name="Fabricante">Stackpole Electronics Inc</field>
+        <field name="Nro de parte">RMCF0805JT330K</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">RMCF0805JT330KCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B24</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>LED-0805</footprint>
+      <datasheet>qtlp630c-2.pdf</datasheet>
+      <fields>
+        <field name="Descripción">LED YELLOW WTR CLR 0805 SMD T/R</field>
+        <field name="Fabricante">Everlight Electronics Co Ltd</field>
+        <field name="Nro de parte">QTLP630C7TR</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">1080-1410-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="LED"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B26</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>CONN_01X06</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x06</footprint>
+      <libsource lib="tp_vino-cache" part="CONN_01X06"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B27</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>CONN_01X06</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x06</footprint>
+      <libsource lib="tp_vino-cache" part="CONN_01X06"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B2A</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>TEC_1</value>
+      <footprint>PUSH_SWITCH_THT</footprint>
+      <datasheet>ENG_CD_1825910_C7_baseFilename.pdf</datasheet>
+      <fields>
+        <field name="Descripción">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Fabricante">TE Connectivity</field>
+        <field name="Nro de parte">1825910-7</field>
+        <field name="Path datasheet">../PCN/EDU-NXP/Datasheets</field>
+        <field name="Digikey">450-1804-ND</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="SW_PUSH"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B2D</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>RC0805 Pb Free.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 1K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-071KL</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">311-1.0KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B2E</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>AOA0000CE1.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Panasonic Electronic Components</field>
+        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">P10KACT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B30</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>c_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 0.1UF 16V 10% X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de Parte">C0805C104K4RACTU</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">399-1167-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="C"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B31</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>TEC_1</value>
+      <footprint>PUSH_SWITCH_THT</footprint>
+      <datasheet>ENG_CD_1825910_C7_baseFilename.pdf</datasheet>
+      <fields>
+        <field name="Descripción">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Fabricante">TE Connectivity</field>
+        <field name="Nro de parte">1825910-7</field>
+        <field name="Path datasheet">../PCN/EDU-NXP/Datasheets</field>
+        <field name="Digikey">450-1804-ND</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="SW_PUSH"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B34</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>RC0805 Pb Free.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 1K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-071KL</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">311-1.0KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B35</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>AOA0000CE1.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Panasonic Electronic Components</field>
+        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">P10KACT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B37</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>c_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 0.1UF 16V 10% X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de Parte">C0805C104K4RACTU</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">399-1167-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="C"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B38</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>TEC_1</value>
+      <footprint>PUSH_SWITCH_THT</footprint>
+      <datasheet>ENG_CD_1825910_C7_baseFilename.pdf</datasheet>
+      <fields>
+        <field name="Descripción">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Fabricante">TE Connectivity</field>
+        <field name="Nro de parte">1825910-7</field>
+        <field name="Path datasheet">../PCN/EDU-NXP/Datasheets</field>
+        <field name="Digikey">450-1804-ND</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="SW_PUSH"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B3B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>RC0805 Pb Free.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 1K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Yageo</field>
+        <field name="Nro de parte">RC0805JR-071KL</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">311-1.0KARCT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B3C</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <datasheet>AOA0000CE1.pdf</datasheet>
+      <fields>
+        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Panasonic Electronic Components</field>
+        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">P10KACT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="R"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B3E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>c_0805</footprint>
+      <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Descripción">CAP CER 0.1UF 16V 10% X7R 0805</field>
+        <field name="Fabricante">Kemet</field>
+        <field name="Nro de Parte">C0805C104K4RACTU</field>
+        <field name="Path datasheet">..PCB/EDU-NXP/Datasheets</field>
+        <field name="Digikey">399-1167-1-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="tp_vino-cache" part="C"/>
+      <sheetpath names="/Buttons_Leds/" tstamps="/581A0DA6/"/>
+      <tstamp>581A1B3F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="tp_vino-cache" part="BC850">
+      <aliases>
+        <alias>BC849</alias>
+      </aliases>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC850</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="CONN_02X02">
+      <footprints>
+        <fp>Pin_Header_Straight_2X02</fp>
+        <fp>Pin_Header_Angled_2X02</fp>
+        <fp>Socket_Strip_Straight_2X02</fp>
+        <fp>Socket_Strip_Angled_2X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="CP">
+      <aliases>
+        <alias>CAPAPOL</alias>
+      </aliases>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="C_MINI">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_MINI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="DIODE">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="DIODESCH">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="FILTER">
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="LED-RESCUE-ciaa-nxp">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-ciaa-nxp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dc-dc" part="LM2576HVS-12">
+      <aliases>
+        <alias>LM2576HVS-3.3</alias>
+        <alias>LM2576HVS-5</alias>
+        <alias>LM2576HVS-15</alias>
+        <alias>LM2576HVS-ADJ</alias>
+      </aliases>
+      <description>TO-263, 12V 3A Step-Down VR High Voltage Input</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2576.pdf</docs>
+      <footprints>
+        <fp>TO-263-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2576HVS-12</field>
+        <field name="Footprint">TO-263-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="~ON~/OFF" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="LM317_SOT223">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317_SOT223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="LM35-LP">
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM35-LP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VS" type="power_in"/>
+        <pin num="2" name="Vout" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="MOS_N">
+      <aliases>
+        <alias>MOSFET_N</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOS_N</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="NCP1117ST33T3G-RESCUE-ciaa-nxp">
+      <footprints>
+        <fp>SOT-223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117ST33T3G-RESCUE-ciaa-nxp</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="POT">
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="R">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="R-RESCUE-ciaa-nxp">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-ciaa-nxp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="ST3232E">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ST3232E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1+" type="input"/>
+        <pin num="2" name="V+" type="power_out"/>
+        <pin num="3" name="C1-" type="input"/>
+        <pin num="4" name="C2+" type="input"/>
+        <pin num="5" name="C2-" type="input"/>
+        <pin num="6" name="V-" type="power_out"/>
+        <pin num="7" name="T2OUT" type="output"/>
+        <pin num="8" name="R2IN" type="input"/>
+        <pin num="9" name="R2OUT" type="output"/>
+        <pin num="10" name="T2IN" type="input"/>
+        <pin num="11" name="T1IN" type="input"/>
+        <pin num="12" name="R1OUT" type="output"/>
+        <pin num="13" name="R1IN" type="input"/>
+        <pin num="14" name="T1OUT" type="output"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="TB_1X2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TB_1X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="USB_OTG-RESCUE-ciaa-nxp">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_OTG-RESCUE-ciaa-nxp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="ZENER">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp_vino-cache" part="ZENER-RESCUE-ciaa-nxp">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER-RESCUE-ciaa-nxp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="tp_vino-cache">
+      <uri>/home/lchico/Especialidad/Proyecto/Hardware/tp_vino/components/tp_vino-cache.lib</uri>
+    </library>
+    <library logical="dc-dc">
+      <uri>/usr/share/kicad/library/dc-dc.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SIM800L/Rx_sim800">
+      <node ref="P1" pin="1"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="2" name="/RS232_TTL/TTL_RS232_RXD1">
+      <node ref="P4" pin="2"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="3" name="Net-(J4-Pad1)">
+      <node ref="U1" pin="13"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad2)">
+      <node ref="U1" pin="9"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="6" name="Net-(J3-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad2)">
+      <node ref="U1" pin="12"/>
+      <node ref="J1" pin="2"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="J6" pin="1"/>
+      <node ref="P8" pin="2"/>
+      <node ref="v_tension1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="P6" pin="2"/>
+      <node ref="v_tension1" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="J7" pin="1"/>
+      <node ref="P7" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="P4" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="Q4" pin="S"/>
+      <node ref="Q5" pin="S"/>
+      <node ref="R15" pin="2"/>
+      <node ref="P12" pin="6"/>
+      <node ref="P12" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="Q3" pin="S"/>
+      <node ref="R24" pin="2"/>
+      <node ref="P11" pin="6"/>
+      <node ref="P11" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="Q2" pin="S"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="P2" pin="5"/>
+      <node ref="FB2" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="ZA2" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="9" name="+3.3V">
+      <node ref="U1" pin="16"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="P5" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad1)">
+      <node ref="U1" pin="11"/>
+      <node ref="J1" pin="1"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(J3-Pad1)">
+      <node ref="U1" pin="8"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="14" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="15" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="16" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="17" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C2-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D2-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="20" name="GNDA">
+      <node ref="FB2" pin="2"/>
+    </net>
+    <net code="21" name="Net-(C6-Pad1)">
+      <node ref="D1" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(P2-Pad2)">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="24" name="Net-(P2-Pad3)">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="25" name="Net-(P2-Pad4)">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="26" name="Net-(P2-Pad6)">
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="27" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="28" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="29" name="+3.3VADC">
+      <node ref="FB1" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="31" name="+5V">
+      <node ref="D8" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="ZA2" pin="2"/>
+      <node ref="D10" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="D11" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="32" name="Net-(P4-Pad4)">
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="33" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="P4" pin="5"/>
+    </net>
+    <net code="34" name="Net-(D5-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="35" name="Net-(Q1-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="36" name="Net-(P4-Pad6)">
+      <node ref="P4" pin="6"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="37" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="38" name="Net-(P3-Pad2)">
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="39" name="Net-(P3-Pad6)">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="40" name="Net-(P3-Pad5)">
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="41" name="Net-(P3-Pad4)">
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="42" name="Net-(P3-Pad3)">
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="43" name="Net-(P3-Pad1)">
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="44" name="Net-(J10-Pad1)">
+      <node ref="P10" pin="1"/>
+      <node ref="v_out_2" pin="1"/>
+      <node ref="v_out_2" pin="2"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="45" name="Net-(J10-Pad2)">
+      <node ref="v_out_2" pin="3"/>
+      <node ref="J10" pin="2"/>
+      <node ref="P10" pin="2"/>
+    </net>
+    <net code="46" name="Net-(J9-Pad1)">
+      <node ref="J9" pin="1"/>
+      <node ref="P9" pin="1"/>
+      <node ref="v_out_1" pin="2"/>
+      <node ref="v_out_1" pin="1"/>
+    </net>
+    <net code="47" name="Net-(J9-Pad2)">
+      <node ref="v_out_1" pin="3"/>
+      <node ref="J9" pin="2"/>
+      <node ref="P9" pin="2"/>
+    </net>
+    <net code="48" name="Net-(J7-Pad2)">
+      <node ref="RV3" pin="3"/>
+      <node ref="J7" pin="2"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="49" name="Net-(RV3-Pad1)">
+      <node ref="RV3" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="RV3" pin="2"/>
+    </net>
+    <net code="50" name="Net-(R6-Pad2)">
+      <node ref="U5" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="51" name="Net-(P5-Pad2)">
+      <node ref="P5" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="P5" pin="4"/>
+    </net>
+    <net code="52" name="Net-(R5-Pad1)">
+      <node ref="v_tension1" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="53" name="Net-(R6-Pad1)">
+      <node ref="v_current1" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="54" name="Net-(J8-Pad2)">
+      <node ref="v_current1" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="v_current1" pin="3"/>
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="55" name="Net-(J6-Pad2)">
+      <node ref="P6" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="56" name="Net-(P11-Pad4)">
+      <node ref="R10" pin="1"/>
+      <node ref="P11" pin="4"/>
+    </net>
+    <net code="57" name="Net-(P12-Pad4)">
+      <node ref="R21" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="P12" pin="4"/>
+    </net>
+    <net code="58" name="Net-(C9-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="59" name="Net-(P11-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="P11" pin="2"/>
+    </net>
+    <net code="60" name="Net-(P11-Pad3)">
+      <node ref="P11" pin="3"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="61" name="Net-(C11-Pad1)">
+      <node ref="SW3" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="62" name="Net-(P12-Pad5)">
+      <node ref="P12" pin="5"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="63" name="Net-(C12-Pad1)">
+      <node ref="SW4" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="64" name="Net-(P11-Pad5)">
+      <node ref="R8" pin="1"/>
+      <node ref="P11" pin="5"/>
+    </net>
+    <net code="65" name="Net-(C10-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="66" name="Net-(Q2-PadG)">
+      <node ref="R16" pin="2"/>
+      <node ref="Q2" pin="G"/>
+    </net>
+    <net code="67" name="Net-(Q2-PadD)">
+      <node ref="R17" pin="2"/>
+      <node ref="Q2" pin="D"/>
+    </net>
+    <net code="68" name="Net-(D8-Pad2)">
+      <node ref="R17" pin="1"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="69" name="Net-(Q5-PadG)">
+      <node ref="Q5" pin="G"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D11-Pad2)">
+      <node ref="R26" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="71" name="Net-(Q5-PadD)">
+      <node ref="Q5" pin="D"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="72" name="Net-(Q4-PadG)">
+      <node ref="Q4" pin="G"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="73" name="Net-(Q4-PadD)">
+      <node ref="R23" pin="2"/>
+      <node ref="Q4" pin="D"/>
+    </net>
+    <net code="74" name="Net-(D10-Pad2)">
+      <node ref="R23" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="75" name="Net-(Q3-PadD)">
+      <node ref="R22" pin="2"/>
+      <node ref="Q3" pin="D"/>
+    </net>
+    <net code="76" name="Net-(Q3-PadG)">
+      <node ref="Q3" pin="G"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D9-Pad2)">
+      <node ref="R22" pin="1"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="78" name="Net-(P12-Pad2)">
+      <node ref="R24" pin="1"/>
+      <node ref="P12" pin="2"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="79" name="Net-(P12-Pad3)">
+      <node ref="R18" pin="1"/>
+      <node ref="P12" pin="3"/>
+      <node ref="R19" pin="1"/>
+    </net>
+  </nets>
+</export>

@@ -1,5 +1,83 @@
 EESchema Schematic File Version 2
 LIBS:tp_vino-cache
+LIBS:74xgxx
+LIBS:74xx
+LIBS:Altera
+LIBS:ESD_Protection
+LIBS:Lattice
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:Zilog
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -20,7 +98,7 @@ U 1 1 581A0FB2
 P 3850 3050
 F 0 "C1" V 3850 3150 30  0000 C CNN
 F 1 "100nF" V 3900 3200 30  0000 C CNN
-F 2 "~" H 3850 3050 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" H 3850 3050 60  0001 C CNN
 F 3 "~" H 3850 3050 60  0000 C CNN
 	1    3850 3050
 	0    1    1    0   
@@ -31,7 +109,7 @@ U 1 1 581A0FB3
 P 3850 3550
 F 0 "C2" V 3850 3650 30  0000 C CNN
 F 1 "100nF" V 3900 3700 30  0000 C CNN
-F 2 "~" H 3850 3550 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" H 3850 3550 60  0001 C CNN
 F 3 "~" H 3850 3550 60  0000 C CNN
 	1    3850 3550
 	0    1    1    0   
@@ -42,7 +120,7 @@ U 1 1 581A0FB4
 P 5800 3250
 F 0 "C4" H 5800 3400 30  0000 C CNN
 F 1 "100nF" H 5800 3350 30  0000 C CNN
-F 2 "~" H 5800 3250 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" H 5800 3250 60  0001 C CNN
 F 3 "~" H 5800 3250 60  0000 C CNN
 	1    5800 3250
 	1    0    0    -1  
@@ -53,7 +131,7 @@ U 1 1 581A0FB5
 P 5800 3750
 F 0 "C5" H 5800 3900 30  0000 C CNN
 F 1 "100nF" H 5800 3850 30  0000 C CNN
-F 2 "~" H 5800 3750 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" H 5800 3750 60  0001 C CNN
 F 3 "~" H 5800 3750 60  0000 C CNN
 	1    5800 3750
 	1    0    0    -1  
@@ -86,7 +164,7 @@ U 1 1 581A0FB8
 P 5800 2850
 F 0 "C3" V 5800 2950 30  0000 C CNN
 F 1 "100nF" V 5850 3000 30  0000 C CNN
-F 2 "~" H 5800 2850 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" H 5800 2850 60  0001 C CNN
 F 3 "~" H 5800 2850 60  0000 C CNN
 	1    5800 2850
 	1    0    0    -1  
@@ -103,7 +181,7 @@ U 1 1 581A0FB9
 P 4800 3550
 F 0 "U1" H 4800 4400 70  0000 C CNN
 F 1 "ST3232E" H 4800 2700 70  0000 C CNN
-F 2 "" H 4800 3550 60  0000 C CNN
+F 2 "SMD_Packages:SO-16-N" H 4800 3550 60  0001 C CNN
 F 3 "" H 4800 3550 60  0000 C CNN
 	1    4800 3550
 	1    0    0    -1  
@@ -196,7 +274,7 @@ U 1 1 581A0FBD
 P 6450 4050
 F 0 "J4" H 6450 4350 60  0000 C CNN
 F 1 "TB_1X2" H 6500 3750 60  0000 C CNN
-F 2 "" H 6400 4100 60  0000 C CNN
+F 2 "Connect:bornier2" H 6400 4100 60  0001 C CNN
 F 3 "" H 6400 4100 60  0000 C CNN
 	1    6450 4050
 	-1   0    0    1   
@@ -209,7 +287,7 @@ U 1 1 581A0FBE
 P 3300 3500
 F 0 "P1" H 3300 3650 50  0000 C CNN
 F 1 "CONN_02X02" H 3300 3350 50  0000 C CNN
-F 2 "" H 3300 2300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02" H 3300 2300 50  0001 C CNN
 F 3 "" H 3300 2300 50  0000 C CNN
 	1    3300 3500
 	0    1    1    0   
@@ -220,7 +298,7 @@ U 1 1 581A0FBF
 P 3100 4350
 F 0 "J1" H 3100 4650 60  0000 C CNN
 F 1 "TB_1X2" H 3150 4050 60  0000 C CNN
-F 2 "" H 3050 4400 60  0000 C CNN
+F 2 "Connect:bornier2" H 3050 4400 60  0001 C CNN
 F 3 "" H 3050 4400 60  0000 C CNN
 	1    3100 4350
 	1    0    0    -1  
@@ -231,7 +309,7 @@ U 1 1 581A0FC0
 P 3800 5100
 F 0 "J2" H 3800 5400 60  0000 C CNN
 F 1 "TB_1X2" H 3850 4800 60  0000 C CNN
-F 2 "" H 3750 5150 60  0000 C CNN
+F 2 "Connect:bornier2" H 3750 5150 60  0001 C CNN
 F 3 "" H 3750 5150 60  0000 C CNN
 	1    3800 5100
 	0    -1   -1   0   
@@ -272,7 +350,7 @@ U 1 1 581A0FC1
 P 5750 5100
 F 0 "J3" H 5750 5400 60  0000 C CNN
 F 1 "TB_1X2" H 5800 4800 60  0000 C CNN
-F 2 "" H 5700 5150 60  0000 C CNN
+F 2 "Connect:bornier2" H 5700 5150 60  0001 C CNN
 F 3 "" H 5700 5150 60  0000 C CNN
 	1    5750 5100
 	0    -1   -1   0   

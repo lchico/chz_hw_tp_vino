@@ -1624,7 +1624,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Angled_1x06 (layer F.Cu) (tedit 0) (tstamp 581B22A1)
-    (at 246.38 97.79 90)
+    (at 298.45 80.01 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /581A0DA6/581A1B27)
@@ -2173,7 +2173,7 @@
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 581B2392)
-    (at 246.38 134.62)
+    (at 298.45 116.84)
     (path /581A0DA6/581A1B14)
     (attr smd)
     (fp_text reference R15 (at 0 0) (layer F.SilkS)
@@ -2203,7 +2203,7 @@
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 581B23A1)
-    (at 246.38 140.97)
+    (at 298.45 123.19)
     (path /581A0DA6/581A1B10)
     (attr smd)
     (fp_text reference R16 (at 0 0) (layer F.SilkS)
@@ -2233,7 +2233,7 @@
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 581B23B0)
-    (at 256.54 143.51 90)
+    (at 308.61 125.73 90)
     (path /581A0DA6/581A1B12)
     (attr smd)
     (fp_text reference R17 (at 0 0 90) (layer F.SilkS)
@@ -2263,7 +2263,7 @@
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 581B23BF)
-    (at 246.38 144.78)
+    (at 298.45 127)
     (path /581A0DA6/581A1B24)
     (attr smd)
     (fp_text reference R18 (at 0 0) (layer F.SilkS)
@@ -2293,7 +2293,7 @@
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 581B23CE)
-    (at 248.92 121.92 90)
+    (at 300.99 104.14 90)
     (path /581A0DA6/581A1B20)
     (attr smd)
     (fp_text reference R19 (at 0 0 90) (layer F.SilkS)
@@ -2323,7 +2323,7 @@
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 581B23DD)
-    (at 245.11 121.92 90)
+    (at 297.18 104.14 90)
     (path /581A0DA6/581A1B05)
     (attr smd)
     (fp_text reference R20 (at 0 0 90) (layer F.SilkS)
@@ -2353,7 +2353,7 @@
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 581B23EC)
-    (at 246.38 132.08)
+    (at 298.45 114.3)
     (path /581A0DA6/581A1B01)
     (attr smd)
     (fp_text reference R21 (at 0 0) (layer F.SilkS)
@@ -2383,7 +2383,7 @@
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 581B23FB)
-    (at 256.54 120.65 90)
+    (at 308.61 102.87 90)
     (path /581A0DA6/581A1B22)
     (attr smd)
     (fp_text reference R22 (at 0 0 90) (layer F.SilkS)
@@ -2413,7 +2413,7 @@
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 581B240A)
-    (at 256.54 133.35 90)
+    (at 308.61 115.57 90)
     (path /581A0DA6/581A1B03)
     (attr smd)
     (fp_text reference R23 (at 0 0 90) (layer F.SilkS)
@@ -2443,7 +2443,7 @@
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 581B2419)
-    (at 247.65 109.22)
+    (at 299.72 91.44)
     (path /581A0DA6/581A1B1C)
     (attr smd)
     (fp_text reference R24 (at 0 0) (layer F.SilkS)
@@ -2473,7 +2473,7 @@
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 581B2428)
-    (at 247.65 105.41)
+    (at 299.72 87.63)
     (path /581A0DA6/581A1B18)
     (attr smd)
     (fp_text reference R25 (at 0 0) (layer F.SilkS)
@@ -2503,7 +2503,7 @@
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 581B2437)
-    (at 256.54 106.68 90)
+    (at 308.61 88.9 90)
     (path /581A0DA6/581A1B1A)
     (attr smd)
     (fp_text reference R26 (at 0 0 90) (layer F.SilkS)
@@ -3408,7 +3408,7 @@
   )
 
   (module LEDs:LED_1206 (layer F.Cu) (tedit 55BDE2E8) (tstamp 582D643B)
-    (at 260.35 143.51 270)
+    (at 312.42 125.73 270)
     (descr "LED 1206 smd package")
     (tags "LED1206 SMD")
     (path /581A0DA6/581A1B16)
@@ -3447,7 +3447,7 @@
   )
 
   (module LEDs:LED_1206 (layer F.Cu) (tedit 55BDE2E8) (tstamp 582D6451)
-    (at 260.35 120.65 270)
+    (at 312.42 102.87 270)
     (descr "LED 1206 smd package")
     (tags "LED1206 SMD")
     (path /581A0DA6/581A1B26)
@@ -3486,7 +3486,7 @@
   )
 
   (module LEDs:LED_1206 (layer F.Cu) (tedit 55BDE2E8) (tstamp 582D6467)
-    (at 260.35 133.35 270)
+    (at 312.42 115.57 270)
     (descr "LED 1206 smd package")
     (tags "LED1206 SMD")
     (path /581A0DA6/581A1B07)
@@ -3525,7 +3525,7 @@
   )
 
   (module LEDs:LED_1206 (layer F.Cu) (tedit 55BDE2E8) (tstamp 582D647D)
-    (at 260.35 106.68 90)
+    (at 312.42 88.9 90)
     (descr "LED 1206 smd package")
     (tags "LED1206 SMD")
     (path /581A0DA6/581A1B1E)
@@ -3564,7 +3564,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-323 (layer F.Cu) (tedit 0) (tstamp 582D648C)
-    (at 252.73 143.51 90)
+    (at 304.8 125.73 90)
     (tags "SMD SOT")
     (path /581A0DA6/581BA074)
     (attr smd)
@@ -3596,7 +3596,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-323 (layer F.Cu) (tedit 0) (tstamp 582D649B)
-    (at 252.73 120.65 90)
+    (at 304.8 102.87 90)
     (tags "SMD SOT")
     (path /581A0DA6/581BA72D)
     (attr smd)
@@ -3628,7 +3628,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-323 (layer F.Cu) (tedit 0) (tstamp 582D64AA)
-    (at 252.73 133.35 90)
+    (at 304.8 115.57 90)
     (tags "SMD SOT")
     (path /581A0DA6/581BA164)
     (attr smd)
@@ -3660,7 +3660,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-323 (layer F.Cu) (tedit 581B5386) (tstamp 582D64B9)
-    (at 252.73 106.68 90)
+    (at 304.8 88.9 90)
     (tags "SMD SOT")
     (path /581A0DA6/581BA931)
     (attr smd)
