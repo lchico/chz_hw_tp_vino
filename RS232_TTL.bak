@@ -78,6 +78,7 @@ LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
 LIBS:xilinx
+LIBS:sim800l
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

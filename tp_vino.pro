@@ -1,4 +1,4 @@
-update=Wed Nov  2 20:16:01 2016
+update=Thu Nov  3 16:39:13 2016
 version=1
 last_client=kicad
 [pcbnew]
@@ -108,3 +108,4 @@ LibName76=ttl_ieee
 LibName77=valves
 LibName78=video
 LibName79=xilinx
+LibName80=components/sim800l
