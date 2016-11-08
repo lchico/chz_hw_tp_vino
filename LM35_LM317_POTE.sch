@@ -110,7 +110,7 @@ U 1 1 581A256E
 P 4150 1300
 F 0 "v_current1" H 4150 1220 50  0000 C CNN
 F 1 "POT" H 4150 1300 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer-Piher_PT15-V15_horizontal" H 4150 1300 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 4150 1300 50  0001 C CNN
 F 3 "" H 4150 1300 50  0000 C CNN
 	1    4150 1300
 	1    0    0    -1  
@@ -176,7 +176,7 @@ U 1 1 581A2574
 P 3100 1450
 F 0 "U5" H 3100 1750 50  0000 C CNN
 F 1 "LM317_SOT223" H 3150 1200 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Horizontal" H 3100 1450 50  0001 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical" H 3100 1450 50  0001 C CNN
 F 3 "" H 3100 1450 50  0000 C CNN
 	1    3100 1450
 	1    0    0    -1  
@@ -198,7 +198,7 @@ U 1 1 581A2576
 P 3700 4250
 F 0 "v_tension1" H 3700 4170 50  0000 C CNN
 F 1 "POT" H 3700 4250 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer-Piher_PT15-V15_horizontal" H 3700 4250 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 3700 4250 50  0001 C CNN
 F 3 "" H 3700 4250 50  0000 C CNN
 	1    3700 4250
 	0    -1   -1   0   
@@ -242,7 +242,7 @@ U 1 1 581A257A
 P 2700 3500
 F 0 "U4" H 2700 3800 50  0000 C CNN
 F 1 "LM317_SOT223" H 2750 3250 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Horizontal" H 2700 3500 50  0001 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical" H 2700 3500 50  0001 C CNN
 F 3 "" H 2700 3500 50  0000 C CNN
 	1    2700 3500
 	1    0    0    -1  

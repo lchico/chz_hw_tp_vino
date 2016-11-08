@@ -1123,9 +1123,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 5050 1500 5050
 Wire Wire Line
-	9050 3800 8850 3800
-Wire Wire Line
-	8850 3800 8850 4950
+	8850 3600 8850 4950
 Wire Wire Line
 	8850 4950 7000 4950
 Wire Wire Line
@@ -1135,9 +1133,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 3700 9050 3700
 Wire Wire Line
-	9050 3600 8150 3600
-Wire Wire Line
-	8150 3600 8150 2900
+	8150 2900 8150 3800
 Wire Wire Line
 	8550 1800 8550 3500
 Wire Wire Line
@@ -1190,4 +1186,8 @@ F 3 "" H 6450 2100 60  0000 C CNN
 	1    6450 2100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	9050 3600 8850 3600
+Wire Wire Line
+	8150 3800 9050 3800
 $EndSCHEMATC
