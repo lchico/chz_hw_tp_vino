@@ -15,12 +15,12 @@ $FPLIST
  Socket_Strip_Angled_1X06
 $ENDFPLIST
 DRAW
-T 0 350 -450 60 0 0 0 GND  Normal 0 C C
-T 0 400 50 60 0 0 0 Net  Normal 0 C C
-T 0 400 -150 60 0 0 0 Rst  Normal 0 C C
-T 0 400 -350 60 0 0 0 Rx  Normal 0 C C
-T 0 400 -250 60 0 0 0 Tx  Normal 0 C C
-T 0 400 -50 60 0 0 0 Vcc  Normal 0 C C
+T 0 -650 -150 60 0 0 0 GND  Normal 0 L C
+T 0 -650 350 60 0 0 0 Net  Normal 0 L C
+T 0 -650 150 60 0 0 0 Rst  Normal 0 L C
+T 0 -600 -50 60 0 0 0 Rx  Normal 0 C C
+T 0 -650 50 60 0 0 0 Tx  Normal 0 L C
+T 0 -650 250 60 0 0 0 Vcc  Normal 0 L C
 S -700 500 500 -550 0 1 0 N
 X P1 1 -850 350 150 R 50 50 1 1 P
 X P2 2 -850 250 150 R 50 50 1 1 P
