@@ -1,4 +1,4 @@
-update=Tue Nov  8 13:21:30 2016
+update=Wed Nov  9 16:49:56 2016
 version=1
 last_client=kicad
 [general]
@@ -93,7 +93,7 @@ NetIExt=net
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=tp_vino_v1.net
+LastNetListRead=tp_vino.net
 PadDrill=0.762
 PadDrillOvalY=0.762
 PadSizeH=1.524
