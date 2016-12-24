@@ -111,6 +111,7 @@ F 0 "v_current1" H 4150 1220 50  0000 C CNN
 F 1 "POT" H 4150 1300 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 4150 1300 50  0001 C CNN
 F 3 "" H 4150 1300 50  0000 C CNN
+F 4 "PTD902-2015K-A503-ND" H 4150 1300 60  0001 C CNN "Digikey#"
 	1    4150 1300
 	1    0    0    -1  
 $EndComp
@@ -177,6 +178,7 @@ F 0 "U5" H 3100 1750 50  0000 C CNN
 F 1 "LM317_SOT223" H 3150 1200 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical" H 3100 1450 50  0001 C CNN
 F 3 "" H 3100 1450 50  0000 C CNN
+F 4 " LM317TFS-ND" H 3100 1450 60  0001 C CNN "Digikey#"
 	1    3100 1450
 	1    0    0    -1  
 $EndComp
@@ -199,6 +201,7 @@ F 0 "v_tension1" H 3300 4170 50  0000 C CNN
 F 1 "POT" H 3300 4250 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 3300 4250 50  0001 C CNN
 F 3 "" H 3300 4250 50  0000 C CNN
+F 4 "PTD902-2015K-A503-ND" H 3300 4250 60  0001 C CNN "Digikey#"
 	1    3300 4250
 	0    -1   -1   0   
 $EndComp
@@ -243,6 +246,7 @@ F 0 "U4" H 2300 3800 50  0000 C CNN
 F 1 "LM317_SOT223" H 2350 3250 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical" H 2300 3500 50  0001 C CNN
 F 3 "" H 2300 3500 50  0000 C CNN
+F 4 " LM317TFS-ND" H 2300 3500 60  0001 C CNN "Digikey#"
 	1    2300 3500
 	1    0    0    -1  
 $EndComp
@@ -308,7 +312,8 @@ P 9000 4600
 F 0 "v_out_2" H 9000 4520 50  0000 C CNN
 F 1 "POT" H 9000 4600 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Alps-RK16-single_largePads" H 9000 4600 50  0001 C CNN
-F 3 "" H 9000 4600 50  0000 C CNN
+F 3 " PTD902-2015K-A503-ND " H 9000 4600 50  0000 C CNN
+F 4 " PTD902-2015K-A503-ND" H 9000 4600 60  0001 C CNN "Digikey#"
 	1    9000 4600
 	0    1    1    0   
 $EndComp
@@ -331,6 +336,7 @@ F 0 "U6" H 1650 6900 50  0000 C CNN
 F 1 "LM35-LP" H 1950 6900 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 1950 6400 50  0001 L CNN
 F 3 "datasheet/lm35.pdf" H 1400 6300 50  0001 C CNN
+F 4 " LM35DZ/NOPB-ND" H 1900 6650 60  0001 C CNN "Digikey#"
 	1    1900 6650
 	1    0    0    -1  
 $EndComp
@@ -353,6 +359,7 @@ F 0 "RV3" H 2650 6550 50  0000 C CNN
 F 1 "POT" H 2650 6650 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Alps-RK16-single" H 2650 6650 60  0001 C CNN
 F 3 "" H 2650 6650 60  0000 C CNN
+F 4 "A105870-ND" H 2650 6650 60  0001 C CNN "Digikey#"
 	1    2650 6650
 	1    0    0    -1  
 $EndComp
@@ -452,6 +459,7 @@ F 0 "v_out_1" H 8900 3120 50  0000 C CNN
 F 1 "POT" H 8900 3200 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Alps-RK16-single_largePads" H 8900 3200 50  0001 C CNN
 F 3 "" H 8900 3200 50  0000 C CNN
+F 4 "PTD902-2015K-A503-ND" H 8900 3200 60  0001 C CNN "Digikey#"
 	1    8900 3200
 	0    1    1    0   
 $EndComp

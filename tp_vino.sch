@@ -200,7 +200,7 @@ F 2 "SMD_Packages:SMD-1206_Pol" H 4200 1450 50  0001 C CNN
 F 3 "" H 4200 1450 50  0000 C CNN
 F 4 "SML-LX1206GC-TR	SML-LX1206GC-TR" H 4200 1450 60  0001 C CNN "Digikey"
 	1    4200 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L +5V #PWR7
